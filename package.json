@@ -1,0 +1,15 @@
+{
+  "name": "quizrush-cn-v3",
+  "version": "1.1.0",
+  "description": "QuizRush realtime classroom quiz platform",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "mammoth": "^1.9.0",
+    "qrcode": "^1.5.4"
+  }
+}
